@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+.content{
+        margin: 0px auto;
+        max-width: 1200px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+.title {
+    text-align: center;
+
+}    
+
+.changePhoto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button {
+    width: 25px;
+    border: none;
+    background-color: white;
+    
+}
+
+.button:hover .btn__img path{
+    fill: burlywood;
+
+}
+
+.container {
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    
+}
+
+.swithch {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+}
+
